@@ -14,6 +14,8 @@ function showPrimeNumbers(lownumber, highNumber) {
         }
     }
 }
-showPrimeNumbers(arguments[0] * 1, arguments[1] * 1);
+//showPrimeNumbers(arguments[0] * 1, arguments[1] * 1);
 
 // console.log(process.argv.slice(2))
+
+console.log(process.argv[1])
